@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sriracha', cursive;
+}
+
+body {
+    background-image: url("../images/map.png");
+}
+
+.contact {
+    width: 350px;
+    height: 100%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.contactUs > h2 {
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 27px;
+}
+
+.flexInput {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.input > input {
+    width: 90%;
+    border: 0;
+    font-size: 22px;
+    border-bottom: 2px solid grey;
+}
+
+button {
+    background-color: #ff425d;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    width: 190px;
+    font-size: 20px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 15px;
+    -webkit-box-shadow: 4px -2px 75px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px -2px 75px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px -2px 75px -4px rgba(0, 0, 0, 0.75);
+    transition: background-color 1s;
+}
+
+button > i {
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    text-wrap: wrap;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #333333;
+    color: white;
+}
+
+.nr {
+    color: #ff425d;
+}
+
+@media (min-width: 1366px) {
+    .contact {
+        width: 1000px;
+        height: 700px;
+    }
+
+    .flexInput {
+        flex-direction: row;
+        width: 700px;
+        flex-wrap: wrap;
+        margin-top: 90px;
+    }
+
+    .input {
+        width: 300px;
+        height: 100%;
+    }
+
+    .input:nth-child(3) {
+        width: 100%;
+    }
+
+    .usContact {
+        margin-top: 100px;
+        font-size: 40px;
+        margin-left: 100px;
+    }
+
+    button {
+        margin-left: 170px;
+    }
+
+    p {
+        margin-top: 40px;
+    }
+}
